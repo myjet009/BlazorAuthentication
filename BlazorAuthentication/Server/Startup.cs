@@ -40,6 +40,7 @@ namespace BlazorAuthentication.Server
                 options.Password.RequireLowercase = false;
                 options.Password.RequireUppercase = false;
                 options.Password.RequireNonAlphanumeric = false;
+
             })
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
